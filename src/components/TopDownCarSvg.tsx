@@ -36,10 +36,10 @@ export const TopDownCarSvg: React.FC<TopDownCarSvgProps> = ({
       {/* Headlight beams pointing right (forward direction of car) */}
       {headlightsOn && (
         <svg
-          width="90"
-          height="76"
+          width="70"
+          height="56"
           viewBox="0 0 90 76"
-          className="absolute -right-16 top-1/2 -translate-y-1/2 pointer-events-none z-0"
+          className="absolute -right-12 top-1/2 -translate-y-1/2 pointer-events-none z-0"
         >
           <defs>
             <linearGradient id={`beamTop-${paintColor}`} x1="0%" y1="50%" x2="100%" y2="50%">
@@ -62,8 +62,8 @@ export const TopDownCarSvg: React.FC<TopDownCarSvgProps> = ({
 
       {/* Main Car Top-Down SVG */}
       <svg
-        width="112"
-        height="64"
+        width="78"
+        height="44"
         viewBox="0 0 112 64"
         className="relative z-10 drop-shadow-md"
       >

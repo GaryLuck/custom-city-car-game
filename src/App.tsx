@@ -158,11 +158,11 @@ export function App() {
         {/* Floating Reset Mud & Air Button bottom-left so kids can wash again & again */}
         <button
           onClick={handleResetAdventure}
-          className="absolute left-4 bottom-4 z-30 toy-btn bg-[#FFFDF7] hover:bg-amber-100 text-[#1C1C1E] font-heading font-extrabold text-xs px-3.5 py-2 rounded-2xl border-2 border-black shadow-[0_4px_0_#1C1C1E] flex items-center gap-1.5"
+          className="absolute left-3 bottom-3 z-30 toy-btn bg-[#FFFDF7] hover:bg-amber-100 text-[#1C1C1E] font-heading font-extrabold text-[11px] md:text-xs px-2.5 md:px-3 py-1.5 rounded-xl border-2 border-black shadow-[0_3px_0_#1C1C1E] flex items-center gap-1.5"
           title="Add fresh mud and reset tires/gas so you can wash again!"
         >
-          <RotateCcw className="w-4 h-4 text-[#007AFF]" />
-          NEW ADVENTURE (ADD FRESH MUD!)
+          <RotateCcw className="w-3.5 h-3.5 text-[#007AFF]" />
+          <span>NEW ADVENTURE (MUD!)</span>
         </button>
       </main>
 
